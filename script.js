@@ -2,7 +2,7 @@ var dd;
 
 $(document).ready(function () {
     const key = 'AIzaSyD-81RzXfy_UcIgUPlOwK4EWDB_ZZEem3k';
-    const playlistId = 'PL2fnLUTsNyq78qZr2WopX7QcGBpxcmzzG';
+    const playlistId = 'PLlYsrzDvIU9Rl3KTGvX2tPr6yBwPPjaH0';
     var URL = 'https://www.googleapis.com/youtube/v3/playlistItems';
 
     var options = {
@@ -29,6 +29,8 @@ $(document).ready(function () {
 
     function mainVideo(id) {
         var str = `<iframe width="560" height="315" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+        
+        
 
         $('#video').html(str);
 
